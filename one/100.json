@@ -1,0 +1,1 @@
+[{"entity1": "杀猪恶意活动", "entity1type": "CAM", "entity2": "社会工程技术", "entity2type": "AT", "relation": "1"}, {"entity1": "攻击者", "entity1type": "TA", "entity2": "LinkedIn", "entity2type": "TOOL", "relation": "1"}, {"entity1": "攻击者", "entity1type": "TA", "entity2": "西非", "entity2type": "loc", "relation": "2"}]

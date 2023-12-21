@@ -59,7 +59,7 @@ def process(item,i):#return list
             relation=input("\t\t输入关系类型id:")
             list1.append({"entity1":entity1,"entity1type":entity1type,"entity2":entity2,"entity2type":entity2type,"relation":relation})
             print(list1)
-            out=input("\n是否继续，回车继续")
+            out=input("\n是否继续，回车继续;1结束\n")
             if out=="1":
                 json_string = json.dumps(list1,ensure_ascii=False)
                 f2.writelines(json_string)
@@ -143,16 +143,21 @@ with open("GPTanswer.jsonl","r",encoding="utf-8")as f1:
 
     n_dat=f1.readlines()
     i=0
+    try:
+        nums =max([int(f.split('.')[0]) for f in os.listdir("one")])
+    except ValueError:
+        nums=0
     for x in tqdm(n_dat):
         # print(i)
-        nums=len(os.listdir("one"))
+        # nums=500
+
         i=i+1
         if nums>=i:
             continue
         
         crith=json.loads(x)
-        conf=input("{}是否继续(1:下一个;回车:处理当前)".format(crith["input"]))
-        if conf=="1":
+        conf=input("\n{}是否继续(1:下一个;回车:处理当前\n)".format(crith["input"]))
+        if conf!="":
             continue
         
         process_t=process(crith,i)

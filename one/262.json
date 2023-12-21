@@ -1,0 +1,1 @@
+[{"entity1": "研究人员", "entity1type": "idt", "entity2": "恶意模块", "entity2type": "mlw", "relation": "13"}, {"entity1": "恶意模块", "entity1type": "mlw", "entity2": "修改WhatsApp合法应用并窃取密钥", "entity2type": "at", "relation": "1"}, {"entity1": "恶意模块", "entity1type": "mlw", "entity2": "Snaptube应用中的广告", "entity2type": "trans", "relation": "8"}]

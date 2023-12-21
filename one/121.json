@@ -1,0 +1,1 @@
+[{"entity1": "网络安全专家", "entity1type": "idt", "entity2": "两个新的漏洞", "entity2type": "vul", "relation": "13"}, {"entity1": "Galaxy应用商店", "entity1type": "ass", "entity2": "CVE-2023-21433", "entity2type": "vul", "relation": "3"}, {"entity1": "Galaxy应用商店", "entity1type": "ass", "entity2": "CVE-2023-21434", "entity2type": "vul", "relation": "3"}]

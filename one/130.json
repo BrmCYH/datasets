@@ -1,0 +1,1 @@
+[{"entity1": "ViceSociety", "entity1type": "TA", "entity2": "窃取", "entity2type": "at", "relation": "1"}, {"entity1": "窃取", "entity1type": "at", "entity2": "含有承包商个人信息的文件", "entity2type": "ass", "relation": "5"}]

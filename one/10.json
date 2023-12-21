@@ -1,0 +1,1 @@
+[{"entity1": "Windows操作系统", "entity1type": "Ass", "entity2": "CVE-2023-29336", "entity2type": "Vul", "relation": "3"}, {"entity1": "Windows操作系统", "entity1type": "Ass", "entity2": "Win32k组件", "entity2type": "Tool", "relation": "4"}, {"entity1": "攻击者", "entity1type": "TA", "entity2": "CVE-2023-29336", "entity2type": "vul", "relation": "1"}]

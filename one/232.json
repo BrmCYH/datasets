@@ -1,0 +1,1 @@
+[{"entity1": "IP电话", "entity1type": "ass", "entity2": "CVE-2022-20968", "entity2type": "vul", "relation": "3"}, {"entity1": "执行任意代码或导致拒绝服务", "entity1type": "at", "entity2": "CVE-2022-20968", "entity2type": "vul", "relation": "1"}]

@@ -1,0 +1,1 @@
+[{"entity1": "启用SAMLSSO的多个Zoho产品", "entity1type": "ass", "entity2": "CVE-2022-47966", "entity2type": "vul", "relation": "3"}, {"entity1": "远程代码执行", "entity1type": "at", "entity2": "CVE-2022-47966", "entity2type": "vul", "relation": "1"}]

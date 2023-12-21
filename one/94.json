@@ -1,0 +1,1 @@
+[{"entity1": "KeePass", "entity1type": "idt", "entity2": "漏洞", "entity2type": "vul", "relation": "13"}, {"entity1": "导出整个数据库", "entity1type": "at", "entity2": "漏洞", "entity2type": "vul", "relation": "1"}, {"entity1": "CVE-2023-24055", "entity1type": "IOC", "entity2": "漏洞", "entity2type": "vul", "relation": "5"}]

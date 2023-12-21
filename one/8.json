@@ -1,0 +1,1 @@
+[{"entity1": "DarkRace", "entity1type": "TA", "entity2": "钓鱼邮件", "entity2type": "AT", "relation": "1"}, {"entity1": "DarkRace", "entity1type": "TA", "entity2": "恶意附件", "entity2type": "AT", "relation": "1"}, {"entity1": "研究人员", "entity1type": "idt", "entity2": "DarkRace", "entity2type": "TA", "relation": "13"}]

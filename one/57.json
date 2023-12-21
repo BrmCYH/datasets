@@ -1,0 +1,1 @@
+[{"entity1": "RedEyes", "entity1type": "TA", "entity2": "CVE-2017-8291", "entity2type": "vul", "relation": "1"}, {"entity1": "传播恶意软件", "entity1type": "AT", "entity2": "CVE-2017-8291", "entity2type": "vul", "relation": "1"}, {"entity1": "下载并注入系统的explorer.exe", "entity1type": "AT", "entity2": "CVE-2017-8291", "entity2type": "vul", "relation": "1"}]

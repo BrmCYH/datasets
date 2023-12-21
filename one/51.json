@@ -1,0 +1,1 @@
+[{"entity1": "修复程序", "entity1type": "Cof", "entity2": "漏洞", "entity2type": "vul", "relation": "9"}, {"entity1": "HAProxy", "entity1type": "idt", "entity2": "修复程序", "entity2type": "cof", "relation": "4"}, {"entity1": "HTTP请求走私攻击", "entity1type": "AT", "entity2": "漏洞", "entity2type": "vul", "relation": "1"}]

@@ -1,0 +1,1 @@
+[{"entity1": "威胁行为者", "entity1type": "TA", "entity2": "钓鱼攻击", "entity2type": "AT", "relation": "1"}, {"entity1": "钓鱼攻击", "entity1type": "AT", "entity2": "获取用户的登录凭据", "entity2type": "moti", "relation": "5"}, {"entity1": "威胁行为者", "entity1type": "TA", "entity2": "谷歌广告", "entity2type": "Tool", "relation": "1"}]

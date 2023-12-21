@@ -1,0 +1,1 @@
+[{"entity1": "Node.js", "entity1type": "ass", "entity2": "CVE-2022-35256", "entity2type": "vul", "relation": "3"}, {"entity1": "HTTP请求中夹带恶意内容", "entity1type": "at", "entity2": "CVE-2022-35256", "entity2type": "vul", "relation": "1"}]

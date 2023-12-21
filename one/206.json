@@ -1,0 +1,1 @@
+[{"entity1": "PureCoder", "entity1type": "ta", "entity2": "PureLogs", "entity2type": "mlw", "relation": "4"}, {"entity1": "PureCoder", "entity1type": "ta", "entity2": "PureCrypt", "entity2type": "mlw", "relation": "4"}, {"entity1": "PureLogs", "entity1type": "mlw", "entity2": "从浏览器、加密钱包和其他应用程序中窃取数据", "entity2type": "at", "relation": "1"}]

@@ -1,0 +1,1 @@
+[{"entity1": "Royal勒索软件", "entity1type": "mlw", "entity2": "美国医疗保健实体", "entity2type": "idt", "relation": "5"}, {"entity1": "Royal勒索软件", "entity1type": "mlw", "entity2": "AES函数", "entity2type": "tool", "relation": "1"}, {"entity1": "", "entity1type": "", "entity2": "", "entity2type": "", "relation": ""}]

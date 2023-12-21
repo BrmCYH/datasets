@@ -1,0 +1,1 @@
+[{"entity1": "Recover和R1Soft服务器备份管理器产品", "entity1type": "Ass", "entity2": "CVE-2022-36537", "entity2type": "vul", "relation": "3"}, {"entity1": "FoxIT", "entity1type": "Idt", "entity2": "", "entity2type": "", "relation": ""}, {"entity1": "攻击者", "entity1type": "TA", "entity2": "CVE-2022-36537", "entity2type": "vul", "relation": "1"}]

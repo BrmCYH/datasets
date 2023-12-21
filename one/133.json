@@ -1,0 +1,1 @@
+[{"entity1": "研究人员", "entity1type": "idt", "entity2": "EarthBogle", "entity2type": "cam", "relation": "13"}, {"entity1": "EarthBogle活动", "entity1type": "cam", "entity2": "NjRAT", "entity2type": "mlw", "relation": "1"}, {"entity1": "攻击者", "entity1type": "ta", "entity2": "诈骗", "entity2type": "at", "relation": "1"}]

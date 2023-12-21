@@ -1,0 +1,1 @@
+[{"entity1": "LockBit", "entity1type": "TA", "entity2": "网络攻击", "entity2type": "at", "relation": "1"}, {"entity1": "网络攻击", "entity1type": "at", "entity2": "英国皇家邮政", "entity2type": "idt", "relation": "5"}]

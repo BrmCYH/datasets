@@ -1,0 +1,1 @@
+[{"entity1": "", "entity1type": "ass", "entity2": "严重漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "严重漏洞", "entity1type": "vul", "entity2": "CVE-2022-46169", "entity2type": "vul", "relation": "11"}]

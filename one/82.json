@@ -1,0 +1,1 @@
+[{"entity1": "OpenSSH", "entity1type": "idt", "entity2": "9.2版本", "entity2type": "cof", "relation": "4"}, {"entity1": "9.2版本", "entity1type": "cof", "entity2": "CVE-2023-25136", "entity2type": "vul", "relation": "9"}]

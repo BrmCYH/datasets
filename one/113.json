@@ -1,0 +1,1 @@
+[{"entity1": "StadeFrancais", "entity1type": "idt", "entity2": "巴黎", "entity2type": "loc", "relation": "2"}, {"entity1": "服务器", "entity1type": "ass", "entity2": "安全漏洞", "entity2type": "vul", "relation": "3"}]

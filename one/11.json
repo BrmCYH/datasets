@@ -1,0 +1,1 @@
+[{"entity1": "研究人员", "entity1type": "IDt", "entity2": "FiXS", "entity2type": "Mlw", "relation": "13"}, {"entity1": "FiXS", "entity1type": "Mlw", "entity2": "ATM恶意软件", "entity2type": "mlw", "relation": "11"}, {"entity1": "攻击墨西哥的银行", "entity1type": "Cam", "entity2": "FiXS", "entity2type": "mlw", "relation": "1"}]

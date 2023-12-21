@@ -1,0 +1,1 @@
+[{"entity1": "FortiOSSSL-VPN", "entity1type": "ass", "entity2": "堆缓冲区溢出漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "堆缓冲区溢出漏洞", "entity1type": "vul", "entity2": "特殊请求执行任意代码或命令", "entity2type": "at", "relation": "1"}, {"entity1": "FortiOS7.2.3", "entity1type": "cof", "entity2": "堆缓冲区溢出漏洞", "entity2type": "vul", "relation": "9"}]

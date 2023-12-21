@@ -1,0 +1,1 @@
+[{"entity1": "奥克兰市", "entity1type": "loc", "entity2": "加利福尼亚州", "entity2type": "loc", "relation": "2"}, {"entity1": "勒索软件攻击", "entity1type": "at", "entity2": "奥克兰市", "entity2type": "loc", "relation": "5"}, {"entity1": "勒索软件攻击", "entity1type": "at", "entity2": "2023年2月8日", "entity2type": "time", "relation": "12"}]

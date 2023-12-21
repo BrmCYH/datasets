@@ -1,0 +1,1 @@
+[{"entity1": "圣玛丽山学院", "entity1type": "idt", "entity2": "纽约", "entity2type": "loc", "relation": "2"}, {"entity1": "网络攻击", "entity1type": "at", "entity2": "圣玛丽山学院", "entity2type": "idt", "relation": "5"}, {"entity1": "网络攻击", "entity1type": "at", "entity2": "2022年12月", "entity2type": "time", "relation": "12"}]

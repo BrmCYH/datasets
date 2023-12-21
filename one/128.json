@@ -1,0 +1,1 @@
+[{"entity1": "Gamaredon", "entity1type": "TA", "entity2": "军事和执法部门", "entity2type": "idt", "relation": "5"}, {"entity1": "Gamaredon", "entity1type": "TA", "entity2": "Telegram", "entity2type": "Tool", "relation": "1"}, {"entity1": "Gamaredon", "entity1type": "TA", "entity2": "俄罗斯", "entity2type": "loc", "relation": "2"}]

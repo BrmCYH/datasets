@@ -1,0 +1,1 @@
+[{"entity1": "伊朗黑客组织", "entity1type": "ta", "entity2": "RatMilad", "entity2type": "mlw", "relation": "1"}, {"entity1": "伊朗黑客组织", "entity1type": "ta", "entity2": "企业用户", "entity2type": "idt", "relation": "5"}, {"entity1": "RatMilad", "entity1type": "mlw", "entity2": "Telegram频道", "entity2type": "trans", "relation": "8"}]

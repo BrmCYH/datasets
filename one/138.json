@@ -1,0 +1,1 @@
+[{"entity1": "Sophos", "entity1type": "idt", "entity2": "修复程序", "entity2type": "cof", "relation": "4"}, {"entity1": "Sophos防火墙", "entity1type": "ass", "entity2": "远程代码执行漏洞", "entity2type": "vul", "relation": "3"}]

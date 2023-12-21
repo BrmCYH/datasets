@@ -1,0 +1,1 @@
+[{"entity1": "Avast", "entity1type": "idt", "entity2": "解密器", "entity2type": "cof", "relation": "4"}, {"entity1": "解密器", "entity1type": "cof", "entity2": "Hades勒索软件变种", "entity2type": "mlw", "relation": "9"}]

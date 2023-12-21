@@ -1,0 +1,1 @@
+[{"entity1": "竞争条件漏洞", "entity1type": "vul", "entity2": "CrashReporter", "entity2type": "Ass", "relation": "3"}, {"entity1": "漏洞", "entity1type": "vul", "entity2": "Foundation框架", "entity2type": "ass", "relation": "3"}]

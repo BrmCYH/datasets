@@ -1,0 +1,1 @@
+[{"entity1": "打印机", "entity1type": "ass", "entity2": "CVE-2023-23560", "entity2type": "vul", "relation": "3"}, {"entity1": "执行任意代码", "entity1type": "at", "entity2": "CVE-2023-23560", "entity2type": "vul", "relation": "1"}]

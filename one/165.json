@@ -1,0 +1,1 @@
+[{"entity1": "Kinsing", "entity1type": "mlw", "entity2": "PostgreSQL和Kubernetes服务器", "entity2type": "ass", "relation": "5"}, {"entity1": "Kinsing", "entity1type": "mlw", "entity2": "Golang恶意软件", "entity2type": "mlw", "relation": "11"}, {"entity1": "Kinsing", "entity1type": "mlw", "entity2": "Linux环境", "entity2type": "ass", "relation": "5"}]

@@ -1,0 +1,1 @@
+[{"entity1": "ParallaxRAT", "entity1type": "Mlw", "entity2": "垃圾邮件和网络钓鱼电子邮件", "entity2type": "Trans", "relation": "8"}, {"entity1": "Uptycs威胁研究团队", "entity1type": "Idt", "entity2": "活跃ParallaxRAT样本", "entity2type": "Mlw", "relation": "13"}, {"entity1": "活跃ParallaxRAT样本", "entity1type": "Mlw", "entity2": "注入技术", "entity2type": "Tool", "relation": "1"}]

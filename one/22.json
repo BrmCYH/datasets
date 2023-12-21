@@ -1,0 +1,1 @@
+[{"entity1": "WebUI", "entity1type": "Ass", "entity2": "安全漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "远程代码执行", "entity1type": "AT", "entity2": "安全漏洞", "entity2type": "vul", "relation": "1"}, {"entity1": "拒绝服务攻击", "entity1type": "At", "entity2": "安全漏洞", "entity2type": "vul", "relation": "1"}]

@@ -1,0 +1,1 @@
+[{"entity1": "Killnet", "entity1type": "ta", "entity2": "DDoS网络攻击", "entity2type": "at", "relation": "1"}, {"entity1": "DDoS网络攻击", "entity1type": "at", "entity2": "网站", "entity2type": "ass", "relation": "5"}]

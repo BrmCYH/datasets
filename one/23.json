@@ -1,0 +1,1 @@
+[{"entity1": "Quarkslab", "entity1type": "Idt", "entity2": "安全漏洞", "entity2type": "vul", "relation": "13"}, {"entity1": "TPM 2.0参考库规范", "entity1type": "Ass", "entity2": "CVE-2023-1017", "entity2type": "vul", "relation": "3"}, {"entity1": "TPM 2.0参考库规范", "entity1type": "ass", "entity2": "CVE-2023-1018", "entity2type": "vul", "relation": "3"}]

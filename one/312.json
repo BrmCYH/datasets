@@ -1,0 +1,1 @@
+[{"entity1": "黑客组织", "entity1type": "ta", "entity2": "ATM攻击事件", "entity2type": "cam", "relation": "10"}, {"entity1": "黑客组织", "entity1type": "ta", "entity2": "ATM攻击", "entity2type": "at", "relation": "1"}, {"entity1": "黑客组织", "entity1type": "ta", "entity2": "PoS系统", "entity2type": "ass", "relation": "5"}]

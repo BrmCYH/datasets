@@ -1,0 +1,1 @@
+[{"entity1": "Horizon3", "entity1type": "idt", "entity2": "CVE-2022-39952", "entity2type": "vul", "relation": "13"}, {"entity1": "注入恶意代码", "entity1type": "AT", "entity2": "漏洞", "entity2type": "vul", "relation": "1"}]

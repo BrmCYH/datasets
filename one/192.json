@@ -1,0 +1,1 @@
+[{"entity1": "谷歌", "entity1type": "idt", "entity2": "Android安全更新", "entity2type": "cof", "relation": "4"}, {"entity1": "Android安全更新", "entity1type": "cof", "entity2": "60个漏洞", "entity2type": "vul", "relation": "9"}]

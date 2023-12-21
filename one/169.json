@@ -1,0 +1,1 @@
+[{"entity1": "Experian", "entity1type": "idt", "entity2": "网站", "entity2type": "ass", "relation": "4"}, {"entity1": "网站", "entity1type": "ass", "entity2": "安全漏洞", "entity2type": "vul", "relation": "3"}]

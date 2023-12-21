@@ -1,0 +1,1 @@
+[{"entity1": "Chrome浏览器", "entity1type": "ass", "entity2": "6个安全漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "Chrome浏览器", "entity1type": "ass", "entity2": "CVE-2023-0471", "entity2type": "vul", "relation": "3"}, {"entity1": "Chrome浏览器", "entity1type": "ass", "entity2": "CVE-2023-0472", "entity2type": "vul", "relation": "3"}]

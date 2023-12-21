@@ -1,0 +1,1 @@
+[{"entity1": "3个流行WordPress插件", "entity1type": "ass", "entity2": "SQL注入漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "Tenable研究员", "entity1type": "idt", "entity2": "SQL注入漏洞", "entity2type": "vul", "relation": "13"}]

@@ -1,0 +1,1 @@
+[{"entity1": "PeerInsights小部件", "entity1type": "ass", "entity2": "DOMXSS漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "Gartner", "entity1type": "idt", "entity2": "修复程序", "entity2type": "cof", "relation": "4"}]

@@ -1,0 +1,1 @@
+[{"entity1": "研究人员", "entity1type": "idt", "entity2": "漏洞", "entity2type": "vul", "relation": "13"}, {"entity1": "OpenEMR", "entity1type": "idt", "entity2": "漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "攻击者", "entity1type": "TA", "entity2": "反射型XSS", "entity2type": "tool", "relation": "1"}]

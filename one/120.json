@@ -1,0 +1,1 @@
+[{"entity1": "执行内核代码", "entity1type": "at", "entity2": "ArmMaliGPU漏洞", "entity2type": "vul", "relation": "1"}, {"entity1": "获取root权限", "entity1type": "at", "entity2": "ArmMaliGPU漏洞", "entity2type": "vul", "relation": "1"}, {"entity1": "CVE-2022-38181", "entity1type": "IOC", "entity2": "ArmMaliGPU漏洞", "entity2type": "vul", "relation": "7"}]

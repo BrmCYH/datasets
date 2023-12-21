@@ -1,0 +1,1 @@
+[{"entity1": "RansomHouse", "entity1type": "ta", "entity2": "威刚公司", "entity2type": "idt", "relation": "5"}, {"entity1": "RagnarLocker勒索软件攻击", "entity1type": "at", "entity2": "威刚公司", "entity2type": "idt", "relation": "5"}, {"entity1": "RagnarLocker勒索软件攻击", "entity1type": "at", "entity2": "2021年", "entity2type": "time", "relation": "12"}]

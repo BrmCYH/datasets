@@ -1,0 +1,1 @@
+[{"entity1": "Clop", "entity1type": "ta", "entity2": "零日漏洞", "entity2type": "vul", "relation": "1"}, {"entity1": "GoAnywhereMFT工具", "entity1type": "Ass", "entity2": "零日漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "Fortra", "entity1type": "idt", "entity2": "GoAnywhereMFT工具", "entity2type": "ass", "relation": "4"}]

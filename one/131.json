@@ -1,0 +1,1 @@
+[{"entity1": "UnifiedCM和UnifiedCMSME的Web管理界面", "entity1type": "ass", "entity2": "CVE-2023-20010", "entity2type": "vul", "relation": "3"}, {"entity1": "SQL注入攻击", "entity1type": "at", "entity2": "CVE-2023-20010", "entity2type": "vul", "relation": "1"}]

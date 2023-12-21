@@ -1,0 +1,1 @@
+[{"entity1": "黑客", "entity1type": "ta", "entity2": "金融机构", "entity2type": "idt", "relation": "5"}, {"entity1": "金融机构", "entity1type": "idt", "entity2": "埃及", "entity2type": "loc", "relation": "2"}, {"entity1": "黑客", "entity1type": "ta", "entity2": "EGLeaks活动", "entity2type": "cam", "relation": "10"}]

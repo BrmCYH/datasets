@@ -1,0 +1,1 @@
+[{"entity1": "BlackByte勒索软件", "entity1type": "mlw", "entity2": "已知漏洞", "entity2type": "vul", "relation": "1"}, {"entity1": "BlackByte勒索软件", "entity1type": "mlw", "entity2": "驱动程序RTCore64.sys", "entity2type": "tool", "relation": "1"}]

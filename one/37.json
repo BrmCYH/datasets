@@ -1,0 +1,1 @@
+[{"entity1": "ATC团队", "entity1type": "Idt", "entity2": "S1deloadStealer", "entity2type": "Mlw", "relation": "13"}, {"entity1": "S1deloadStealer", "entity1type": "mlw", "entity2": "DLL侧加载", "entity2type": "Tool", "relation": "1"}]

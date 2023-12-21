@@ -1,0 +1,1 @@
+[{"entity1": "斯克", "entity1type": "Idt", "entity2": "更新", "entity2type": "Cof", "relation": "4"}, {"entity1": "更新", "entity1type": "Cof", "entity2": "CVE-2023-20011", "entity2type": "vul", "relation": "9"}, {"entity1": "更新", "entity1type": "cof", "entity2": "CVE-2023-20089", "entity2type": "vul", "relation": "9"}]

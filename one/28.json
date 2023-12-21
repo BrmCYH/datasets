@@ -1,0 +1,1 @@
+[{"entity1": "Houzez主题", "entity1type": "Ass", "entity2": "严重漏洞", "entity2type": "Vul", "relation": "3"}, {"entity1": "WrodPress", "entity1type": "Ass", "entity2": "严重漏洞", "entity2type": "vul", "relation": "3"}, {"entity1": "执行权限提升", "entity1type": "AT", "entity2": "严重漏洞", "entity2type": "vul", "relation": "1"}]

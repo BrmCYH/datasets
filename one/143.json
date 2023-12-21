@@ -1,0 +1,1 @@
+[{"entity1": "Lolip0p", "entity1type": "TA", "entity2": "上传了三个恶意包", "entity2type": "at", "relation": "1"}, {"entity1": "Lolip0p", "entity1type": "ta", "entity2": "PyPI存储库", "entity2type": "ass", "relation": "5"}, {"entity1": "上传了三个恶意包", "entity1type": "at", "entity2": "2023年1月7日至12日之间", "entity2type": "time", "relation": "12"}]
