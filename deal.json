@@ -1,0 +1,138 @@
+[
+  {
+    "input": "一个叫做Sofacy的恶意软件被已知的威胁参与者XPR使用来进行攻击。可以通过一种名为FirewallBlocking的防御措施来阻止这种恶意软件。根据报告，XPR的活动主要集中在俄罗斯。",
+    "output": "[{\"entity1\": \"XPR\", \"type1\": \"TA\", \"entity2\": \"Sofacy\", \"type2\": \"MLW\", \"relation\": \"uses\"}, {\"entity1\": \"XPR\", \"type1\": \"TA\", \"entity2\": \"\\u4fc4\\u7f57\\u65af\", \"type2\": \"Region\", \"relation\": \"located\"}, {\"entity1\": \"FirewallBlocking\", \"type1\": \"COA\", \"entity2\": \"Sofacy\", \"type2\": \"MLW\", \"relation\": \"mitigates\"}]"
+  },
+  {
+    "input": "已知威胁行动者sDs使用被称为chepi的恶意软件进行攻击。巧妙的是名为cofff的防御措施阻挡。",
+    "output": "[{\"entity1\": \"sDs\", \"type1\": \"TA\", \"entity2\": \"chepi\", \"type2\": \"MLW\", \"relation\": \"uses\"}, {\"entity1\": \"cofff\", \"type1\": \"COA\", \"entity2\": \"chepi\", \"type2\": \"MLW\", \"relation\": \"mitigates\"}]"
+  },
+  {
+    "input": "众所周知，XPr恶意行为参与者一直以来都在使用由其创建的名为Sofacy的恶意软件进行攻击。",
+    "output": "[{\"entity1\": \"XPr\", \"type1\": \"TA\", \"entity2\": \"Sofacy\", \"type2\": \"MLW\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "威胁参与者CyberThreat，已开始实施一种名为SPhishing的攻击方式，通过诱骗性的电子邮件来窃取受害者的个人信息。",
+    "output": "[{\"entity1\": \"CyberThreat\", \"type1\": \"TA\", \"entity2\": \"SPhishing\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "该威胁参与者王牌是黑客组织wanwai控制的，目标是全球各地的金融机构，特别是一个名为GlobalBank的大型银行。",
+    "output": "[{\"entity1\": \"wanwai\", \"type1\": \"TA\", \"entity2\": \"\\u738b\\u724c\", \"type2\": \"TA\", \"relation\": \"attribute-to\"}, {\"entity1\": \"\\u738b\\u724c\", \"type1\": \"TA\", \"entity2\": \"GlobalBank\", \"type2\": \"IDT\", \"relation\": \"targets\"}]"
+  },
+  {
+    "input": "CriminalsUnited使用Phisser的攻击方式。这种攻击方式通过社会工程攻击来窃取受害者的个人信息。我们相信这个威胁参与者是由一个名为APT26的黑客组织控制的。",
+    "output": "[{\"entity1\": \"CriminalsUnited\", \"type1\": \"TA\", \"entity2\": \"Phisser\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"Phisser\", \"type1\": \"TA\", \"entity2\": \"\\u793e\\u4f1a\\u5de5\\u7a0b\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"CriminalsUnited\", \"type1\": \"TA\", \"entity2\": \"APT26\", \"type2\": \"TA\", \"relation\": \"attributed-to\"}]"
+  },
+  {
+    "input": "情报显示黑客组织Xpo下的CriminalsUnited犯罪组织已开始实施一种名为Doit的恶意软件，它通过植入木马来窃取受害者的个人信息。",
+    "output": "[{\"entity1\": \"CriminalsUnited\", \"type1\": \"TA\", \"entity2\": \"Xpo\", \"type2\": \"TA\", \"relation\": \"attributed-to\"}, {\"entity1\": \"CriminalsUnited\", \"type1\": \"TA\", \"entity2\": \"Doit\", \"type2\": \"MLW\", \"relation\": \"uses\"}, {\"entity1\": \"\\u690d\\u5165\\u6728\\u9a6c\", \"type1\": \"AT\", \"entity2\": \"Doit\", \"type2\": \"MLW\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "活跃的威胁集团FIFOXD，与俄罗斯政府有关联，其利用ApacheStruts2系统中的漏洞S2-052，并使用了名为ExploitS2-052的攻击模式。他们发送了特定的HTTP请求来利用漏洞，并执行了恶意代码。",
+    "output": "[{\"entity1\": \"FIFOXD\", \"type1\": \"TA\", \"entity2\": \"\\u4fc4\\u7f57\\u65af\\u653f\\u5e9c\", \"type2\": \"IDT\", \"relation\": \"attribute-to\"}, {\"entity1\": \"FIFOXD\", \"type1\": \"TA\", \"entity2\": \"ExploitS2-052\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"ApacheStruts2\", \"type1\": \"IDT\", \"entity2\": \"S2-052\", \"type2\": \"VUL\", \"relation\": \"exists\"}, {\"entity1\": \"ExploitS2-052\", \"type1\": \"AT\", \"entity2\": \"S2-052\", \"type2\": \"VUL\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "威胁集团xlinear利用DISiys系统中存在的S2-052漏洞，采用一种名为Exploit2的攻击技术，利用特制的HTTP请求来触发漏洞并执行恶意代码。这个漏洞使得攻击者可以通过远程代码执行的方式绕过系统的安全防护。",
+    "output": "[{\"entity1\": \"xlinear\", \"type1\": \"TA\", \"entity2\": \"Exploit2\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"DISiys\", \"type1\": \"IDT\", \"entity2\": \"S2-052\", \"type2\": \"VUL\", \"relation\": \"exists\"}, {\"entity1\": \"\\u8fdc\\u7a0b\\u4ee3\\u7801\\u6267\\u884c\", \"type1\": \"AT\", \"entity2\": \"S2-052\", \"type2\": \"VUL\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "研究人员最近发现LOBSHOT正在使用Windows系统的SFTP服务作为后门程序，用以下载和执行恶意代码。SFTP服务是一种常用于Windows更新的文件传输技术。LOBSHOT充分利用该服务，绕过防火墙和杀毒软件，窃取机密信息并进行隐蔽攻击。",
+    "output": "[{\"entity1\": \"LOBSHOT\", \"type1\": \"MLW\", \"entity2\": \"SFTP\", \"type2\": \"TOOL\", \"relation\": \"uses\"}, {\"entity1\": \"Windows\", \"type1\": \"IDT\", \"entity2\": \"SFTP\", \"type2\": \"TOOL\", \"relation\": \"owns\"}, {\"entity1\": \"LOBSHOT\", \"type1\": \"MLW\", \"entity2\": \"\\u9690\\u853d\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "YELODark与Evomos、PikaProtocol、OpenAICTO和OrbiterFinance等多起黑客事件有关。YELODark使用一种名为Malware-as-a-Service的恶意软件，可以帮助用户快速制作恶意网站，冒充合法的加密货币项目或交易所，以欺骗用户提供私钥或助记词。",
+    "output": "[{\"entity1\": \"YELODark\", \"type1\": \"TA\", \"entity2\": \"Evomos\", \"type2\": \"CAM\", \"relation\": \"hosts\"}, {\"entity1\": \"YELODark\", \"type1\": \"TA\", \"entity2\": \"PikaProtocol\", \"type2\": \"CAM\", \"relation\": \"hosts\"}, {\"entity1\": \"YELODark\", \"type1\": \"TA\", \"entity2\": \"OpenAICTO\", \"type2\": \"CAM\", \"relation\": \"hosts\"}, {\"entity1\": \"YELODark\", \"type1\": \"TA\", \"entity2\": \"OrbiterFinance\", \"type2\": \"CAM\", \"relation\": \"hosts\"}, {\"entity1\": \"YELODark\", \"type1\": \"TA\", \"entity2\": \"Malware-as-a-Service\", \"type2\": \"MLW\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "在CurseForge的平台上，有些坏人上传了一个叫Crusher的含有恶意软件的项目。CurseForge已经把这些人封禁了，并且与作者社区合作展开了调查，想办法解决这个问题。为了帮助用户判断自己是否被感染了，他们提供了一个工具供用户下载和运行。如果用户发现感染了，只需要删除那个感染文件就可以了。",
+    "output": "[{\"entity1\": \"CurseForge\", \"type1\": \"IDT\", \"entity2\": \"Crusher\", \"type2\": \"MLW\", \"relation\": \"discory\"}]"
+  },
+  {
+    "input": "黑客组织BITIg对HWLEbsworth发动了一次勒索软件攻击，并非法获取了4TB的数据，其中包括员工和客户的敏感信息，以及该律师事务所网络的映射。这家律师事务所的客户名单上有一些重量级的名字，比如澳大利亚储备银行、澳大利亚选举委员会和卡塔尔航空等。",
+    "output": "[{\"entity1\": \"BITIg\", \"type1\": \"TA\", \"entity2\": \"HWLEbsworth\", \"type2\": \"IDT\", \"relation\": \"targets\"}, {\"entity1\": \"BITIg\", \"type1\": \"TA\", \"entity2\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"HWLEbsworth\", \"type1\": \"IDT\", \"entity2\": \"\\u6570\\u636e\", \"type2\": \"ASS\", \"relation\": \"owns\"}]"
+  },
+  {
+    "input": "4月28日，黑客组织ALPHV对澳大利亚律师事务所WQEHL进行了勒索软件攻击并导致了严重后果。",
+    "output": "[{\"entity1\": \"4\\u670828\\u65e5\", \"type1\": \"TIME\", \"entity2\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"launch\"}, {\"entity1\": \"ALPHV\", \"type1\": \"TA\", \"entity2\": \"WQEHL\", \"type2\": \"IDT\", \"relation\": \"targets\"}, {\"entity1\": \"ALPHV\", \"type1\": \"TA\", \"entity2\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "最近，一支来自朝鲜的黑客组织PBUTln发动了一系列社交工程攻击，瞄准政府、军事、外交和研究机构。他们利用伪造的电子邮件和网站来引诱受害者点击恶意链接或下载恶意附件。",
+    "output": "[{\"entity1\": \"PBUTln\", \"type1\": \"TA\", \"entity2\": \"\\u671d\\u9c9c\", \"type2\": \"Region\", \"relation\": \"located\"}, {\"entity1\": \"PBUTln\", \"type1\": \"TA\", \"entity2\": \"\\u793e\\u4ea4\\u5de5\\u7a0b\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "研究人员在HWIYLab的调查中发现了一支名为DarkRace的勒索软件团伙。这个团伙采用了钓鱼邮件和恶意附件的方式来感染目标系统，接着对文件进行加密，然后勒索赎金。DarkRace采用了自行开发的加密算法，还提供了一个暗网网站。",
+    "output": "[{\"entity1\": \"HWIYLab\", \"type1\": \"IDT\", \"entity2\": \"DarkRace\", \"type2\": \"TA\", \"relation\": \"discory\"}, {\"entity1\": \"DarkRace\", \"type1\": \"TA\", \"entity2\": \"\\u9493\\u9c7c\\u90ae\\u4ef6\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"DarkRace\", \"type1\": \"TA\", \"entity2\": \"\\u6076\\u610f\\u9644\\u4ef6\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "安天实验室发现了名为DATP的勒索软件团伙。这个团伙采用了钓鱼邮件和恶意附件的方式来感染目标系统，接着利用其自行开发的加密算法对文件进行加密，然后勒索赎金。",
+    "output": "[{\"entity1\": \"\\u5b89\\u5929\\u5b9e\\u9a8c\\u5ba4\", \"type1\": \"IDT\", \"entity2\": \"DATP\", \"type2\": \"TA\", \"relation\": \"discory\"}, {\"entity1\": \"DATP\", \"type1\": \"TA\", \"entity2\": \"\\u9493\\u9c7c\\u90ae\\u4ef6\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"DATP\", \"type1\": \"TA\", \"entity2\": \"\\u6076\\u610f\\u9644\\u4ef6\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "2022年，物联网僵尸网络纷纷展开大规模的分布式拒绝服务攻击，使得电信网络面临诸多困扰，包括中断、延迟和质量下降。这种网络由大量被黑客操控的物联网设备所组成，它们不断向目标服务器发起海量请求，令其无法正常提供服务。",
+    "output": "[{\"entity1\": \"\\u50f5\\u5c38\\u7f51\\u7edc\", \"type1\": \"CAM\", \"entity2\": \"\\u5206\\u5e03\\u5f0f\\u62d2\\u7edd\\u670d\\u52a1\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "近期，安天CERT发现了一系列在视频平台上进行的XXS攻击。黑客发布与破解版软件有关的演示视频，诱导用户下载Re2Pker窃密木马。这是Raccoon窃密木马的最新版，它会从C2服务器接收配置信息，然后利用这些信息获取敏感数据。",
+    "output": "[{\"entity1\": \"\\u5b89\\u5929CERT\", \"type1\": \"IDT\", \"entity2\": \"XXS\", \"type2\": \"AT\", \"relation\": \"discory\"}, {\"entity1\": \"Re2Pker\\u7a83\\u5bc6\\u6728\\u9a6c\", \"type1\": \"MLW\", \"entity2\": \"Raccoon\\u7a83\\u5bc6\\u6728\\u9a6c\", \"type2\": \"MLW\", \"relation\": \"related-to\"}, {\"entity1\": \"Re2Pker\\u7a83\\u5bc6\\u6728\\u9a6c\", \"type1\": \"MLW\", \"entity2\": \"C2\\u670d\\u52a1\\u5668\", \"type2\": \"TOOL\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "安天CERT发现了一起利用视频网站进行攻击的活动。黑客偷走了超过10万个视频创作者的账号，并发布了与破解软件有关的示范视频，引诱用户下载siy木马。这是Ran窃密木马的更新版本，它会从C2服务器接收配置信息，并据此窃取敏感信息。",
+    "output": "[{\"entity1\": \"siy\\u6728\\u9a6c\", \"type1\": \"MLW\", \"entity2\": \"Ran\\u7a83\\u5bc6\\u6728\\u9a6c\", \"type2\": \"MLW\", \"relation\": \"related-to\"}, {\"entity1\": \"siy\\u6728\\u9a6c\", \"type1\": \"MLW\", \"entity2\": \"C2\\u670d\\u52a1\\u5668\", \"type2\": \"TOOL\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "根据PLan官网公告，黑客于2023年6月7日发动了攻击，导致部分用户的电子邮件地址和密码被泄露。黑客通过利用Cloudflare漏洞，成功绕过了防火墙，并利用PHP漏洞获取了对数据库的访问权限。网站已经修复了漏洞，并对所有用户的密码进行了重置。",
+    "output": "[{\"entity1\": \"\\u9ed1\\u5ba2\", \"type1\": \"TA\", \"entity2\": \"Cloudflare\", \"type2\": \"VUL\", \"relation\": \"uses\"}, {\"entity1\": \"PLan\", \"type1\": \"IDT\", \"entity2\": \"Cloudflare\", \"type2\": \"VUL\", \"relation\": \"exists\"}, {\"entity1\": \"PLan\", \"type1\": \"IDT\", \"entity2\": \"PHP\", \"type2\": \"VUL\", \"relation\": \"exists\"}]"
+  },
+  {
+    "input": "奇异果是一帮黑客团体，最近对美国多家机构进行了一连串的DDoS攻击，目标包括微软、Lyft和几家医院。他们声称这是为了对美国政府干涉苏丹内政表示抗议，并警告称他们将继续攻击美国企业。",
+    "output": "[{\"entity1\": \"\\u5947\\u5f02\\u679c\", \"type1\": \"TA\", \"entity2\": \"DDos\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"\\u5947\\u5f02\\u679c\", \"type1\": \"TA\", \"entity2\": \"\\u5fae\\u8f6f\", \"type2\": \"IDT\", \"relation\": \"targets\"}, {\"entity1\": \"\\u5947\\u5f02\\u679c\", \"type1\": \"TA\", \"entity2\": \"Lyft\", \"type2\": \"IDT\", \"relation\": \"targets\"}]"
+  },
+  {
+    "input": "在6月6日和7日，微软的Outlook服务两次遭受了大规模的网络水滴攻击，影响了成千上万的用户。",
+    "output": "[{\"entity1\": \"\\u5fae\\u8f6f\", \"type1\": \"IDT\", \"entity2\": \"Outlook\\u670d\\u52a1\", \"type2\": \"IDT\", \"relation\": \"owns\"}, {\"entity1\": \"\\u7f51\\u7edc\\u6c34\\u6ef4\\u653b\\u51fb\", \"type1\": \"AT\", \"entity2\": \"Outlook\\u670d\\u52a1\", \"type2\": \"IDT\", \"relation\": \"targets\"}]"
+  },
+  {
+    "input": "研究人员最近发现了一个最新型的ATM恶意软件，被称为XPnr。自2023年2月以来，这种软件一直在袭击墨西哥的银行。其名称源自恶意软件二进制文件中的一个字符串代号。",
+    "output": "[{\"entity1\": \"XPnr\", \"type1\": \"MLW\", \"entity2\": \"ATM\", \"type2\": \"MLW\", \"relation\": \"related-to\"}, {\"entity1\": \"XPnr\", \"type1\": \"MLW\", \"entity2\": \"\\u94f6\\u884c\", \"type2\": \"IDT\", \"relation\": \"targets\"}, {\"entity1\": \"\\u94f6\\u884c\", \"type1\": \"IDT\", \"entity2\": \"\\u58a8\\u897f\\u54e5\", \"type2\": \"Region\", \"relation\": \"located\"}]"
+  },
+  {
+    "input": "Play勒索软件集团开始公开泄露他们从奥克兰市窃取的数据。在2023年2月，奥克兰市曝光了一次勒索软件攻击。",
+    "output": "[{\"entity1\": \"Play\", \"type1\": \"TA\", \"entity2\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"\\u5965\\u514b\\u5170\\u5e02\", \"type1\": \"Region\", \"entity2\": \"\\u6570\\u636e\", \"type2\": \"ASS\", \"relation\": \"owns\"}]"
+  },
+  {
+    "input": "Alameda曝光了一次Play组织发动的勒索软件攻击，并公开泄露他们从Alameda窃取的数据。",
+    "output": "[{\"entity1\": \"Play\\u52d2\\u7d22\\u8f6f\\u4ef6\\u56e2\\u4f19\", \"type1\": \"TA\", \"entity2\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"uses\"}, {\"entity1\": \"Alameda\", \"type1\": \"Region\", \"entity2\": \"\\u6570\\u636e\", \"type2\": \"ASS\", \"relation\": \"owns\"}]"
+  },
+  {
+    "input": "黑暗势力组织自称策划了对奥克兰市的网络攻击。奥克兰是旧金山湾区东侧的城市，拥有约44万居民。该城市在经济方面扮演着重要角色。2023年2月10日，该市遭受勒索软件攻击，导致网络系统受到影响。",
+    "output": "[{\"entity1\": \"\\u9ed1\\u6697\\u52bf\\u529b\\u7ec4\\u7ec7\", \"type1\": \"TA\", \"entity2\": \"\\u7f51\\u7edc\\u653b\\u51fb\", \"type2\": \"IDT\", \"relation\": \"uses\"}, {\"entity1\": \"\\u7f51\\u7edc\\u7cfb\\u7edf\", \"type1\": \"IDT\", \"entity2\": \"\\u5965\\u514b\\u5170\\u5e02\", \"type2\": \"Region\", \"relation\": \"located\"}, {\"entity1\": \"\\u7f51\\u7edc\\u653b\\u51fb\", \"type1\": \"AT\", \"entity2\": \"\\u7f51\\u7edc\\u7cfb\\u7edf\", \"type2\": \"IDT\", \"relation\": \"target\"}]"
+  },
+  {
+    "input": "GUI勒索软件团伙对埃默里维尔市进行了网络攻击。2023年3月，埃默里维尔市遭受勒索软件攻击，导致除了911调度、消防应急服务和城市金融系统之外的所有网络系统受到影响。",
+    "output": "[{\"entity1\": \"GUI\", \"type1\": \"TA\", \"entity2\": \"\\u7f51\\u7edc\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"targets\"}, {\"entity1\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type1\": \"AT\", \"entity2\": \"\\u7f51\\u7edc\\u7cfb\\u7edf\", \"type2\": \"IDT\", \"relation\": \"target\"}, {\"entity1\": \"\\u57c3\\u9ed8\\u91cc\\u7ef4\\u5c14\\u5e02\", \"type1\": \"Region\", \"entity2\": \"\\u7f51\\u7edc\\u7cfb\\u7edf\", \"type2\": \"ASS\", \"relation\": \"owns\"}]"
+  },
+  {
+    "input": "BOL间谍软件感染了一位亲俄市长的手机。据报道，波兰特工机构被指控使用该监控软件来监视政府反对者。据波兰媒体报道，这并非波兰特工机构首次使用BOL间谍软件。",
+    "output": "[{\"entity1\": \"BOL\", \"type1\": \"MLW\", \"entity2\": \"\\u624b\\u673a\", \"type2\": \"ASS\", \"relation\": \"targets\"}, {\"entity1\": \"\\u4eb2\\u4fc4\\u5e02\\u957f\", \"type1\": \"IDT\", \"entity2\": \"\\u624b\\u673a\", \"type2\": \"ASS\", \"relation\": \"owns\"}, {\"entity1\": \"\\u6ce2\\u5170\\u7279\\u5de5\\u673a\\u6784\", \"type1\": \"TA\", \"entity2\": \"BOL\", \"type2\": \"MLW\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "据媒体披露，一位与美国市长的电脑遭到了Pegasus间谍软件的感染，美国特勤局使用该软件来监听政府高层。Pegasus间谍软件之前也被用于监视手机通讯。",
+    "output": "[{\"entity1\": \"\\u7f8e\\u56fd\\u7279\\u52e4\\u5c40\", \"type1\": \"TA\", \"entity2\": \"Pegasus\", \"type2\": \"MLW\", \"relation\": \"uses\"}, {\"entity1\": \"\\u5e02\\u957f\", \"type1\": \"IDT\", \"entity2\": \"\\u7535\\u8111\", \"type2\": \"ASS\", \"relation\": \"owns\"}, {\"entity1\": \"\\u76d1\\u542c\\u624b\\u673a\\u901a\\u8baf\", \"type1\": \"AT\", \"entity2\": \"Pegasus\", \"type2\": \"MLW\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "根据美国当局发布的警报，P2kk勒索软件组织是一个由高手组成的黑客组织，与Conti黑客组织有很多相似之处。该组织的主要目标是攻击关键基础设施，尤其对美国医疗保健行业表现出了极大的兴趣。CISA警告称，Roya11勒索软件使用网络钓鱼邮件进行传播。",
+    "output": "[{\"entity1\": \"P2kk\", \"type1\": \"TA\", \"entity2\": \"Conti\", \"type2\": \"TA\", \"relation\": \"related-to\"}, {\"entity1\": \"\\u533b\\u7597\\u4fdd\\u5065\\u884c\\u4e1a\", \"type1\": \"IDT\", \"entity2\": \"\\u7f8e\\u56fd\", \"type2\": \"Region\", \"relation\": \"located\"}, {\"entity1\": \"P2kk\", \"type1\": \"TA\", \"entity2\": \"\\u533b\\u7597\\u4fdd\\u5065\\u884c\\u4e1a\", \"type2\": \"IDT\", \"relation\": \"targets\"}, {\"entity1\": \"Roya11\", \"type1\": \"MLW\", \"entity2\": \"\\u7f51\\u7edc\\u9493\\u9c7c\\u90ae\\u4ef6\", \"type2\": \"AT\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "勒索软件组织X是一支经验丰富的勒索软件攻击集团，该组织攻击了俄罗斯的防空系统，造成了极大的伤害。",
+    "output": "[{\"entity1\": \"\\u52d2\\u7d22\\u8f6f\\u4ef6\\u7ec4\\u7ec7X\", \"type1\": \"TA\", \"entity2\": \"\\u9632\\u7a7a\\u7cfb\\u7edf\", \"type2\": \"ASS\", \"relation\": \"targets\"}, {\"entity1\": \"\\u4fc4\\u7f57\\u65af\", \"type1\": \"Region\", \"entity2\": \"\\u9632\\u7a7a\\u7cfb\\u7edf\", \"type2\": \"ASS\", \"relation\": \"owns\"}]"
+  },
+  {
+    "input": "CadoLabs的研究人员最近发现了一种针对不安全的Oracle数据库服务器的新的勒索攻击活动。威胁参与者使用了transfer.sh文件传输服务，可能以避免被检测。",
+    "output": "[{\"entity1\": \"CadoLabs\", \"type1\": \"IDT\", \"entity2\": \"\\u52d2\\u7d22\\u653b\\u51fb\\u6d3b\\u52a8\", \"type2\": \"CAM\", \"relation\": \"discory\"}, {\"entity1\": \"\\u52d2\\u7d22\\u653b\\u51fb\\u6d3b\\u52a8\", \"type1\": \"CAM\", \"entity2\": \"Oracle\\u6570\\u636e\\u5e93\\u670d\\u52a1\\u5668\", \"type2\": \"IDT\", \"relation\": \"targets\"}, {\"entity1\": \"\\u5a01\\u80c1\\u53c2\\u4e0e\\u8005\", \"type1\": \"TA\", \"entity2\": \"transfer.sh\", \"type2\": \"TOOL\", \"relation\": \"uses\"}]"
+  },
+  {
+    "input": "CadoLabs分析了多个云中心的恶意软件活动，发现许多使用了shell脚本的恶意软件攻击，特别是勒索软件攻击。transfer.sh有可能成为替代Pastebin等服务的解决方案。",
+    "output": "[{\"entity1\": \"CadoLabs\", \"type1\": \"IDT\", \"entity2\": \"\\u6076\\u610f\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type2\": \"AT\", \"relation\": \"discory\"}, {\"entity1\": \"\\u6076\\u610f\\u8f6f\\u4ef6\\u653b\\u51fb\", \"type1\": \"AT\", \"entity2\": \"shell\\u811a\\u672c\", \"type2\": \"TOOL\", \"relation\": \"uses\"}]"
+  }
+]

@@ -1,0 +1,101 @@
+一个叫做Sofacy的恶意软件被已知的威胁参与者XPR使用来进行攻击。可以通过一种名为FirewallBlocking的防御措施来阻止这种恶意软件。根据报告，XPR的活动主要集中在俄罗斯。
+ <triple> XPR <TA> Sofacy <Mlw> uses <triple> XPR <TA> 俄罗斯 <Loc> located <triple> FirewallBlocking <CoF> Sofacy <Mlw> mitigates
+
+已知威胁行动者sDs使用被称为chepi的恶意软件进行攻击。巧妙的是名为cofff的防御措施阻挡。
+ <triple> sDs <TA> chepi <Mlw> uses <triple> cofff <CoF> chepi <Mlw> mitigates
+
+众所周知，XPr恶意行为参与者一直以来都在使用由其创建的名为Sofacy的恶意软件进行攻击。
+ <triple> XPr <TA> Sofacy <Mlw> uses
+
+威胁参与者CyberThreat，已开始实施一种名为SPhishing的攻击方式，通过诱骗性的电子邮件来窃取受害者的个人信息。
+<triple> CyberThreat <TA> SPhishing <AT> uses
+
+该威胁参与者王牌是黑客组织wanwai控制的，目标是全球各地的金融机构，特别是一个名为GlobalBank的大型银行。
+ <triple> wanwai <TA> 王牌 <TA> attribute-to <triple> 王牌 <TA> GlobalBank <Idt> targets
+
+CriminalsUnited使用Phisser的攻击方式。这种攻击方式通过社会工程攻击来窃取受害者的个人信息。我们相信这个威胁参与者是由一个名为APT26的黑客组织控制的。
+ <triple> CriminalsUnited <TA> Phisser <AT> uses <triple> Phisser <TA> 社会工程攻击 <AT> uses <triple> CriminalsUnited <TA> APT26 <TA> attributed-to
+
+情报显示黑客组织Xpo下的CriminalsUnited犯罪组织已开始实施一种名为Doit的恶意软件，它通过植入木马来窃取受害者的个人信息。
+ <triple> CriminalsUnited <TA> Xpo <TA> attributed-to <triple> CriminalsUnited <TA> Doit <Mlw> uses <triple> 植入木马 <AT> Doit <Mlw> uses
+
+活跃的威胁集团FIFOXD，与俄罗斯政府有关联，其利用ApacheStruts2系统中的漏洞S2-052，并使用了名为ExploitS2-052的攻击模式。他们发送了特定的HTTP请求来利用漏洞，并执行了恶意代码。
+ <triple> FIFOXD <TA> 俄罗斯政府 <Idt> attribute-to <triple> FIFOXD <TA> ExploitS2-052 <AT> uses <triple> ApacheStruts2 <Idt> S2-052 <Vul> exists <triple> ExploitS2-052 <AT> S2-052 <Vul> uses
+
+威胁集团xlinear利用DISiys系统中存在的S2-052漏洞，采用一种名为Exploit2的攻击技术，利用特制的HTTP请求来触发漏洞并执行恶意代码。这个漏洞使得攻击者可以通过远程代码执行的方式绕过系统的安全防护。
+ <triple> xlinear <TA> Exploit2 <AT> uses <triple> DISiys <Idt> S2-052 <Vul> exists <triple> 远程代码执行 <AT> S2-052 <Vul> uses
+
+研究人员最近发现LOBSHOT正在使用Windows系统的SFTP服务作为后门程序，用以下载和执行恶意代码。SFTP服务是一种常用于Windows更新的文件传输技术。LOBSHOT充分利用该服务，绕过防火墙和杀毒软件，窃取机密信息并进行隐蔽攻击。
+ <triple> LOBSHOT <Mlw> SFTP <Tool> uses <triple> Windows <Idt> SFTP <Tool> owns <triple> LOBSHOT <Mlw> 隐蔽攻击 <AT> uses
+
+YELODark与Evomos、PikaProtocol、OpenAICTO和OrbiterFinance等多起黑客事件有关。YELODark使用一种名为Malware-as-a-Service的恶意软件，可以帮助用户快速制作恶意网站，冒充合法的加密货币项目或交易所，以欺骗用户提供私钥或助记词。
+ <triple> YELODark <TA> Evomos <Cam> hosts <triple> YELODark <TA> PikaProtocol <Cam> hosts <triple> YELODark <TA> OpenAICTO <Cam> hosts <triple> YELODark <TA> OrbiterFinance <Cam> hosts <triple> YELODark <TA> Malware-as-a-Service <Mlw> uses
+
+在CurseForge的平台上，有些坏人上传了一个叫Crusher的含有恶意软件的项目。CurseForge已经把这些人封禁了，并且与作者社区合作展开了调查，想办法解决这个问题。为了帮助用户判断自己是否被感染了，他们提供了一个工具供用户下载和运行。如果用户发现感染了，只需要删除那个感染文件就可以了。
+ <triple> CurseForge <Idt> Crusher <Mlw> discory
+
+黑客组织BITIg对HWLEbsworth发动了一次勒索软件攻击，并非法获取了4TB的数据，其中包括员工和客户的敏感信息，以及该律师事务所网络的映射。这家律师事务所的客户名单上有一些重量级的名字，比如澳大利亚储备银行、澳大利亚选举委员会和卡塔尔航空等。
+ <triple> BITIg <TA> HWLEbsworth <Idt> targets <triple> BITIg <TA> 勒索软件攻击 <AT> uses <triple> HWLEbsworth <Idt> 数据 <Ass> owns
+
+4月28日，黑客组织ALPHV对澳大利亚律师事务所WQEHL进行了勒索软件攻击并导致了严重后果。
+ <triple> 4月28日 <Time> 勒索软件攻击 <AT> launch <triple> ALPHV <TA> WQEHL <Idt> targets <triple> ALPHV <TA> 勒索软件攻击 <AT> uses
+
+最近，一支来自朝鲜的黑客组织PBUTln发动了一系列社交工程攻击，瞄准政府、军事、外交和研究机构。他们利用伪造的电子邮件和网站来引诱受害者点击恶意链接或下载恶意附件。
+ <triple> PBUTln <TA> 朝鲜 <Loc> located <triple> PBUTln <TA> 社交工程攻击 <AT> uses
+
+研究人员在HWIYLab的调查中发现了一支名为DarkRace的勒索软件团伙。这个团伙采用了钓鱼邮件和恶意附件的方式来感染目标系统，接着对文件进行加密，然后勒索赎金。DarkRace采用了自行开发的加密算法，还提供了一个暗网网站。
+ <triple> HWIYLab <Idt> DarkRace <TA> discory <triple> DarkRace <TA> 钓鱼邮件 <AT> uses <triple> DarkRace <TA> 恶意附件 <AT> uses 
+
+安天实验室发现了名为DATP的勒索软件团伙。这个团伙采用了钓鱼邮件和恶意附件的方式来感染目标系统，接着利用其自行开发的加密算法对文件进行加密，然后勒索赎金。
+ <triple> 安天实验室 <Idt> DATP <TA> discory <triple> DATP <TA> 钓鱼邮件 <AT> uses <triple> DATP <TA> 恶意附件 <AT> uses
+
+2022年，物联网僵尸网络纷纷展开大规模的分布式拒绝服务攻击，使得电信网络面临诸多困扰，包括中断、延迟和质量下降。这种网络由大量被黑客操控的物联网设备所组成，它们不断向目标服务器发起海量请求，令其无法正常提供服务。
+ <triple> 僵尸网络 <Cam> 分布式拒绝服务攻击 <AT> uses
+
+近期，安天CERT发现了一系列在视频平台上进行的XXS攻击。黑客发布与破解版软件有关的演示视频，诱导用户下载Re2Pker窃密木马。这是Raccoon窃密木马的最新版，它会从C2服务器接收配置信息，然后利用这些信息获取敏感数据。
+ <triple> 安天CERT <Idt> XXS <AT> discory <triple> Re2Pker窃密木马 <Mlw> Raccoon窃密木马 <Mlw> related-to <triple> Re2Pker窃密木马 <Mlw> C2服务器 <Tool> uses
+
+安天CERT发现了一起利用视频网站进行攻击的活动。黑客偷走了超过10万个视频创作者的账号，并发布了与破解软件有关的示范视频，引诱用户下载siy木马。这是Ran窃密木马的更新版本，它会从C2服务器接收配置信息，并据此窃取敏感信息。
+ <triple> siy木马 <Mlw> Ran窃密木马 <Mlw> related-to <triple> siy木马 <Mlw> C2服务器 <Tool> uses
+
+根据PLan官网公告，黑客于2023年6月7日发动了攻击，导致部分用户的电子邮件地址和密码被泄露。黑客通过利用Cloudflare漏洞，成功绕过了防火墙，并利用PHP漏洞获取了对数据库的访问权限。网站已经修复了漏洞，并对所有用户的密码进行了重置。
+ <triple> 黑客 <TA> Cloudflare <Vul> uses <triple> PLan <Idt> Cloudflare <Vul> exists <triple> PLan <Idt> PHP <Vul> exists
+
+奇异果是一帮黑客团体，最近对美国多家机构进行了一连串的DDoS攻击，目标包括微软、Lyft和几家医院。他们声称这是为了对美国政府干涉苏丹内政表示抗议，并警告称他们将继续攻击美国企业。
+ <triple> 奇异果 <TA> DDos攻击 <AT> uses <triple> 奇异果 <TA> 微软 <Idt> targets <triple> 奇异果 <TA> Lyft <Idt> targets
+
+在6月6日和7日，微软的Outlook服务两次遭受了大规模的网络水滴攻击，影响了成千上万的用户。
+<triple> 微软 <Idt> Outlook服务 <Idt> owns <triple> 网络水滴攻击 <AT> Outlook服务 <Idt> targets
+
+研究人员最近发现了一个最新型的ATM恶意软件，被称为XPnr。自2023年2月以来，这种软件一直在袭击墨西哥的银行。其名称源自恶意软件二进制文件中的一个字符串代号。
+ <triple> XPnr <Mlw> ATM <Mlw> related-to <triple> XPnr <Mlw> 银行 <Idt> targets <triple> 银行 <Idt> 墨西哥 <Loc> located
+
+Play勒索软件集团开始公开泄露他们从奥克兰市窃取的数据。在2023年2月，奥克兰市曝光了一次勒索软件攻击。
+ <triple> Play <TA> 勒索软件攻击 <AT> uses <triple> 奥克兰市 <Loc> 数据 <Ass> owns
+
+ Alameda曝光了一次Play组织发动的勒索软件攻击，并公开泄露他们从Alameda窃取的数据。
+ <triple> Play勒索软件团伙 <TA> 勒索软件攻击 <AT> uses <triple> Alameda <Loc> 数据 <Ass> owns
+
+黑暗势力组织自称策划了对奥克兰市的网络攻击。奥克兰是旧金山湾区东侧的城市，拥有约44万居民。该城市在经济方面扮演着重要角色。2023年2月10日，该市遭受勒索软件攻击，导致网络系统受到影响。
+ <triple> 黑暗势力组织 <TA> 网络攻击 <Idt> uses <triple> 网络系统 <Idt> 奥克兰市 <Loc> located <triple> 网络攻击 <AT> 网络系统 <Idt> target
+
+GUI勒索软件团伙对埃默里维尔市进行了网络攻击。2023年3月，埃默里维尔市遭受勒索软件攻击，导致除了911调度、消防应急服务和城市金融系统之外的所有网络系统受到影响。
+ <triple> GUI <TA> 网络攻击 <AT> targets <triple> 勒索软件攻击 <AT> 网络系统 <Idt> target <triple> 埃默里维尔市 <Loc> 网络系统 <Ass> owns
+
+BOL间谍软件感染了一位亲俄市长的手机。据报道，波兰特工机构被指控使用该监控软件来监视政府反对者。据波兰媒体报道，这并非波兰特工机构首次使用BOL间谍软件。
+ <triple> BOL <Mlw> 手机 <Ass> targets <triple> 亲俄市长 <Idt> 手机 <Ass> owns <triple> 波兰特工机构 <TA> BOL <Mlw> uses
+
+据媒体披露，一位与美国市长的电脑遭到了Pegasus间谍软件的感染，美国特勤局使用该软件来监听政府高层。Pegasus间谍软件之前也被用于监视手机通讯。
+ <triple> 美国特勤局 <TA> Pegasus <Mlw> uses <triple> 市长 <Idt> 电脑 <Ass> owns <triple> 监听手机通讯 <AT> Pegasus <Mlw> uses
+
+根据美国当局发布的警报，P2kk勒索软件组织是一个由高手组成的黑客组织，与Conti黑客组织有很多相似之处。该组织的主要目标是攻击关键基础设施，尤其对美国医疗保健行业表现出了极大的兴趣。CISA警告称，Roya11勒索软件使用网络钓鱼邮件进行传播。
+ <triple> P2kk <TA> Conti <TA> related-to <triple> 医疗保健行业 <Idt> 美国 <Loc> located <triple> P2kk <TA> 医疗保健行业 <Idt> targets <triple> Roya11 <Mlw> 网络钓鱼邮件 <AT> uses
+
+勒索软件组织X是一支经验丰富的勒索软件攻击集团，该组织攻击了俄罗斯的防空系统，造成了极大的伤害。
+<triple> 勒索软件组织X <TA> 防空系统 <Ass> targets <triple> 俄罗斯 <Loc> 防空系统 <Ass> owns
+
+CadoLabs的研究人员最近发现了一种针对不安全的Oracle数据库服务器的新的勒索攻击活动。威胁参与者使用了transfer.sh文件传输服务，可能以避免被检测。
+ <triple> CadoLabs <Idt> 勒索攻击活动 <Cam> discory <triple> 勒索攻击活动 <Cam> Oracle数据库服务器 <Idt> targets <triple> 威胁参与者 <TA> transfer.sh <Tool> uses
+
+CadoLabs分析了多个云中心的恶意软件活动，发现许多使用了shell脚本的恶意软件攻击，特别是勒索软件攻击。transfer.sh有可能成为替代Pastebin等服务的解决方案。
+ <triple> CadoLabs <Idt> 恶意软件攻击 <AT> discory <triple> 恶意软件攻击 <AT> shell脚本 <Tool> uses
